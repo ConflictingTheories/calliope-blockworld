@@ -9,7 +9,7 @@ var _vector = require("./utils/vector");
 
 var _blocks = _interopRequireDefault(require("./blocks"));
 
-var _enums = require("./enums");
+var _enums = require("./enums.jsx");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 

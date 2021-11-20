@@ -11,9 +11,9 @@ var _react = _interopRequireWildcard(require("react"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
 
-var _core = _interopRequireDefault(require("./engine/core"));
+var _core = _interopRequireDefault(require("./engine/core.jsx"));
 
-var _enums = require("./engine/enums");
+var _enums = require("./engine/enums.jsx");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 

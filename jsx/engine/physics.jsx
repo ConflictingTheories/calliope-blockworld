@@ -11,7 +11,7 @@
 ** ----------------------------------------------- **
 \*                                                 */
 
-import BLOCK from './blocks';
+import BLOCK from './blocks.jsx';
 export default class Physics {
   constructor(world = null) {
     this.world = world;

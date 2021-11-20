@@ -13,8 +13,8 @@
 
 import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
-import glEngine from './engine/core';
-import { MOUSE } from "./engine/enums"
+import glEngine from './engine/core.jsx';
+import { MOUSE } from "./engine/enums.jsx"
 //
 const WebGLView = ({ width, height, SceneProvider, class: string }) => {
   const ref = useRef();

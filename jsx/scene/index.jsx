@@ -11,19 +11,19 @@
 ** ----------------------------------------------- **
 \*                                                 */
 
-import { create, translate, rotate } from '../engine/utils/matrix4';
-import { cube, modelMerge } from '../engine/utils/elements';
-import { Vector } from '../engine/utils/vector';
+import { create, translate, rotate } from '../engine/utils/matrix4.jsx';
+import { cube, modelMerge } from '../engine/utils/elements.jsx';
+import { Vector } from '../engine/utils/vector.jsx';
 
 // Shaders
-import fs from './shaders/fs';
-import vs from './shaders/vs';
+import fs from './shaders/fs.jsx';
+import vs from './shaders/vs.jsx';
 
 // Blockworld 
-import World from "../engine/world";
-import Physics from "../engine/physics";
-import Player from "../engine/player";
-import BLOCK from "../engine/blocks";
+import World from "../engine/world.jsx";
+import Physics from "../engine/physics.jsx";
+import Player from "../engine/player.jsx";
+import BLOCK from "../engine/blocks.jsx";
 
 
 // Scene Object

@@ -11,7 +11,7 @@
 ** ----------------------------------------------- **
 \*                                                 */
 
-import { create, rotate, translate, perspective, isPowerOf2 } from './utils/matrix4';
+import { create, rotate, translate, perspective, isPowerOf2 } from './utils/matrix4.jsx';
 
 export default class GLEngine {
   constructor(canvas, width, height) {

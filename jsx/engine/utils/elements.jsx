@@ -11,7 +11,7 @@
 ** ----------------------------------------------- **
 \*                                                 */
 
-import { Vector, Vector4 } from './vector';
+import { Vector, Vector4 } from './vector.jsx';
 
 // Color w/ Opacity
 export function colorRGBA(r, g, b, a) {

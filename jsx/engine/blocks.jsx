@@ -11,8 +11,8 @@
 ** ----------------------------------------------- **
 \*                                                 */
 
-import { pushQuad } from "./utils/vector";
-import { DIRECTION } from "./enums";
+import { pushQuad } from "./utils/vector.jsx";
+import { DIRECTION } from "./enums.jsx";
 
 // Block Object Model
 export default (() => {

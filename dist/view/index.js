@@ -13,7 +13,7 @@ var _propTypes = _interopRequireDefault(require("prop-types"));
 
 var _engine = _interopRequireDefault(require("../engine"));
 
-var _enums = require("../engine/utils/enums");
+var _enums = require("../engine/utils/enums.jsx");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 

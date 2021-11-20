@@ -11,8 +11,8 @@
 ** ----------------------------------------------- **
 \*                                                 */
 
-import { Vector } from "./utils/vector";
-import BLOCK from "./blocks";
+import { Vector } from "./utils/vector.jsx";
+import BLOCK from "./blocks.jsx";
 
 export default class World {
   constructor(sx, sy, sz) {

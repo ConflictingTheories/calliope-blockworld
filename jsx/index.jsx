@@ -14,11 +14,11 @@
 import React, { Component } from "react";
 import { collect } from "react-recollect";
 // WebGL Component
-import WebGLView from "./view";
+import WebGLView from "./view/index.jsx";
 // Blockworld Scene Provider
-import SceneProvider from "./scene";
+import SceneProvider from "./scene/index.jsx";
 // Style Plugin
-import "../less/bitworld.less";
+import "../less/bitworld.css";
 
 class BlockWorld extends Component {
   constructor(props) {

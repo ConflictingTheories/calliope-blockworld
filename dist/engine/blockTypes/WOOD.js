@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = void 0;
 
-var _enums = require("../enums");
+var _enums = require("../enums.jsx");
 
 var _default = function () {
   return {

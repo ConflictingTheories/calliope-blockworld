@@ -1,4 +1,4 @@
-import { DIRECTION } from "../../utils/enums";
+import { DIRECTION } from "../../utils/enums.jsx";
 export default (() => {
   return {
     id: 4,

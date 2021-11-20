@@ -11,9 +11,9 @@
 ** ----------------------------------------------- **
 \*                                                 */
 
-import { Vector, lineRectCollide, rectRectCollide } from "./utils/vector";
-import BLOCK from "./blocks";
-import { MOUSE } from "./enums";
+import { Vector, lineRectCollide, rectRectCollide } from "./utils/vector.jsx";
+import BLOCK from "./blocks.jsx";
+import { MOUSE } from "./enums.jsx";
 
 export default class Player {
   constructor(world, scene) {
