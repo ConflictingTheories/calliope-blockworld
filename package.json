@@ -1,6 +1,6 @@
 {
   "name": "calliope-blockworld",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Blockworld is a mini minecraft clone for calliope static site generator.",
   "main": "dist/bundle.js",
   "scripts": {
