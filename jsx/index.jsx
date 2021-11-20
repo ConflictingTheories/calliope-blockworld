@@ -18,7 +18,7 @@ import WebGLView from "./view/index.jsx";
 // Blockworld Scene Provider
 import SceneProvider from "./scene/index.jsx";
 // Style Plugin
-import "../less/bitworld.css";
+import "../css/bitworld.css";
 
 class BlockWorld extends Component {
   constructor(props) {
